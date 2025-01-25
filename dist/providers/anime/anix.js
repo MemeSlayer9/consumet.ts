@@ -7,7 +7,7 @@ class Anix extends models_1.AnimeParser {
     constructor(customBaseURL, proxy, adapter) {
         super(proxy, adapter);
         this.name = 'Anix';
-        this.baseUrl = 'https://anix.sh';
+        this.baseUrl = 'https://anix.com.pl/';
         this.logo = 'https://anix.sh/img/logo.png';
         this.classPath = 'ANIME.Anix';
         this.MediaCategory = {
